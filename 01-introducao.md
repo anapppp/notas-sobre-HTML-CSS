@@ -53,23 +53,18 @@ Campo de texto <input type="text" />
 Campo numérico <input type="number" />
 Seletor de cor <input type="color" />
 ```      
-> Campo de texto <input type="text" />
-
-> Campo numérico <input type="number" />
-
-> Seletor de cor <input type="color" />
 
 - `style` insere comandos css 
 ```
 <strong style="color: blue"> Um texto azul </strong>
 ```
-> <strong style="color: blue"> Um texto azul </strong>
 
 - `src=""` indica o localização da imagem, e `width = ""` determina o tamanho da imagem 
 
 ```
 <img src='https://u3r3f6s2.rocketcdn.me/wp-content/uploads/2021/01/image-32.png' width = "300"/>
 ```   
+
 <img src='https://u3r3f6s2.rocketcdn.me/wp-content/uploads/2021/01/image-32.png' width = "300"/>
 
 ## Texto
@@ -91,7 +86,6 @@ Seletor de cor <input type="color" />
 ```
 <p>Isso é um parágrafo</p>
 ``` 
-<p>Isso é um parágrafo</p>
 
 ```
 <blockquote>
