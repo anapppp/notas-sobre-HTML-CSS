@@ -6,7 +6,7 @@ Como fazer para um formulario chegar no *backend*?
 
 Criando um formulário:
 
-```
+```html
 <form name="signup" method="POST" onsubmit="alert('Formulário enviado!')" target="_blank" action="enderecodomeusite">
 Nome: <input type="text" name="NAME">
 
@@ -49,91 +49,91 @@ Senha: <input type="password" name="password">
 
 <label> Campo de texto: </label> <input type="text" /><br>
 
-```
+```html
 <label> Campo de texto: </label> <input type="text" /><br>
 ```
 
 <label> Campo numérico: </label> <input type="number" /><br>
 
-```
+```html
 <label> Campo numérico: </label> <input type="number" /><br>
 ```
 
 <label> Seletor de cor: </label> <input type="color" /><br>
 
-```
+```html
 <label> Seletor de cor: </label> <input type="color" /><br>
 ```
 
 <label> Seletor de intervalo: </label> <input type="range" /><br>
 
-```
+```html
 <label> Seletor de intervalo: </label> <input type="range" /><br>
 ```
 
 <label> E-mail: </label> <input type="email" /><br>
 
-```
+```html
 <label> E-mail: </label> <input type="email" /><br>
 ```
 
 <label> URL: </label> <input type="url" /><br>
 
-```
+```html
 <label> URL: </label> <input type="url" /><br>
 ```
 
 <label> Data: </label> <input type="date" /><br>
 
-```
+```html
 <label> Data: </label> <input type="date" /><br>
 ```
 
 <label> Mês: </label> <input type="month" /><br>
 
-```
+```html
 <label> Mês: </label> <input type="month" /><br>
 ```
 
 <label> Checkbox: </label> <input type="checkbox" /><br>
 
-```
+```html
 <label> Checkbox: </label> <input type="checkbox" /><br>
 ```
 
 <label> Radio: </label> <input type="radio" /><br>
 
-```
+```html
 <label> Radio: </label> <input type="radio" /><br>
 ```
 
 <label> Campo invisível: </label> <input type="hidden" /><br>
 
-```
+```html
 <label> Campo invisível: </label> <input type="hidden" /><br>
 ```
 
 <label> Envio de um arquivo: </label> <input type="file" /><br>
 
-```
+```html
 <label> Envio de um arquivo: </label> <input type="file" /><br>
 ```
 
 <label> Envio de vários arquivos: </label> <input type="file" multiple /><br>
 
-```
+```html
 <label> Envio de vários arquivos: </label> <input type="file" multiple /><br>
 ```
 
 <label> Busca: </label> <input type="search" /><br>
 
-```
+```html
 <label> Busca: </label> <input type="search" /><br>
 ```
 
 <label> Botão: </label> <input type="button" value="Botão" /><br>
 
-```
+```html
 <label> Botão: </label> <input type="submit" value="Botão" /><br>
 ```
 
@@ -147,7 +147,7 @@ O jeito certo de enviar o checkbox é com ` method="POST" ` e com `name` de toda
 <input type="checkbox" name="opcional[]" value="tomate"/>tomate<br>
 <input type="checkbox" name="opcional[]" value="queijo"/>queijo<br>
 
-```
+```html
 <label> Opcionais:</label><br>
 <input type="checkbox" name="opcional[]" value="cebola"/>cebola<br>
 <input type="checkbox" name="opcional[]" value="tomate"/>tomate<br>
@@ -161,7 +161,7 @@ Já o radio não permite marcar mais de um campo. O `name` também precisa ser i
 <input type="radio" name="borda" value="sim"/>Sim<br>
 <input type="radio" name="borda" value="nao"/>Não<br>
 
-```
+```html
 <label> Deseja borda recheada?</label><br>
 <input type="radio" name="borda" value="sim"/>Sim<br>
 <input type="radio" name="borda" value="nao"/>Não<br>
@@ -173,19 +173,19 @@ Já o radio não permite marcar mais de um campo. O `name` também precisa ser i
 
 <label> Botão simples : </label> <input type="button" value="Botao Simples" onmouseOver="alert('Esse botão não faz nada')" /><br>
 
-```
+```html
 <label> Botão simples : </label> <input type="button" value="Botao Simples" onmouseOver="alert('Esse botão não faz nada')" /><br>
 ```
 
 <label> Reset: </label> <input type="reset" value= "Limpar formulário" title="Limpa todo o <form> no qual o botao está contido"/><br>
 
-```
+```html
 <label> Reset: </label> <input type="reset" value= "Limpar formulário" title="Limpa todo o <form> no qual o botao está contido"/><br>
 ```
 
 <label> Enviar formulário: </label> <input type="submit" value= "Enviar formulário" title="Envia o <form> no qual o botao está contido" /><br>
 
-```
+```html
 <label> Enviar formulário: </label> <input type="submit" value= "Enviar formulário" title="Envia o <form> no qual o botao está contido" /><br>
 ```
 
@@ -199,7 +199,7 @@ Já o radio não permite marcar mais de um campo. O `name` também precisa ser i
 <option value="opcao3">Melhor opção de todas</option>
 </select><br>
 
-```
+```html
 <label> Selecionar uma única opção: </label>
 <select name="opcao">
 <option value="opcao0" selected>Sem solução</option>
@@ -217,7 +217,7 @@ Já o radio não permite marcar mais de um campo. O `name` também precisa ser i
 <option value="opcao3">Melhor opção de todas</option>
 </select><br>
 
-```
+```html
 <label> Selecionar múltiplas opções: </label>
 <select name="opcao" multiple>
 <option value="opcao0" selected>Sem solução</option>
@@ -236,7 +236,7 @@ Já o radio não permite marcar mais de um campo. O `name` também precisa ser i
 <textarea rows="2" cols="80" name="texto" >
 </textarea><br>
 
-```
+```html
 <label> Escreva um texto: </label>
 <textarea rows="2" cols="80" name="texto" >
 </textarea><br>
