@@ -21,8 +21,12 @@ São tags que não possuem valor semântico.
 A tag `<div>` ocupa a horizontal inteira, enquanto que a `<spam>` ocupa só o local.
 
 ## Tag `<fieldset>`
+Delimita uma região.
 
+```html
 <fieldset>
     <legend> Dados pessoais: </legend>
-
 </fieldset>
+```
+![image](https://github.com/anapppp/notas-sobre-HTML-CSS/assets/70073296/77b8ef22-5923-4c23-be35-5210ea9c7b6a)
+
