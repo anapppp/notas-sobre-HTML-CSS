@@ -2,7 +2,7 @@
 
 ## Estrutura básica de uma página em HTML
 
-```
+```html
 <html>
   <title> 
     Título da página. O que está aqui não aparece na página 
@@ -32,7 +32,7 @@ São informações adicionais que definem o comportamento, estilo ou caracterís
 
 - `id` cria uma identificacão para aquela tag
 
-```
+```html
 <strong id="texto"> Um texto que possui uma identificação </strong>
 ```
 > <strong id="texto"> Um texto que possui uma identificação </strong>
@@ -40,7 +40,7 @@ São informações adicionais que definem o comportamento, estilo ou caracterís
 
 - `class` define uma classe, onde, tudo o que for marcada como sendo daquela classe, terá a mesma formatação.
 
-```
+```html
 <i class="titulo-principal"> Texto classificado como título principal </strong>
 ```
 
@@ -48,20 +48,20 @@ São informações adicionais que definem o comportamento, estilo ou caracterís
 
 - `type` define o tipo do campo `input`
 
-```
+```html
 Campo de texto <input type="text" /> 
 Campo numérico <input type="number" />
 Seletor de cor <input type="color" />
 ```      
 
 - `style` insere comandos css 
-```
+```html
 <strong style="color: blue"> Um texto azul </strong>
 ```
 
 - `src=""` indica o localização da imagem, e `width = ""` determina o tamanho da imagem 
 
-```
+```html
 <img src='https://u3r3f6s2.rocketcdn.me/wp-content/uploads/2021/01/image-32.png' width = "300"/>
 ```   
 
@@ -69,7 +69,7 @@ Seletor de cor <input type="color" />
 
 ## Texto
 
-```
+```html
 <h1> Título 1 </h1>
 
 <h2> Título 2 </h2>
@@ -83,11 +83,11 @@ Seletor de cor <input type="color" />
 <h6> Título 6 </h6>
 ```
 
-```
+```html
 <p>Isso é um parágrafo</p>
 ``` 
 
-```
+```html
 <blockquote>
    Isso é uma citação/observação
 </blockquote>
@@ -101,7 +101,7 @@ Seletor de cor <input type="color" />
 
 ### Lista ordenada:
 
-```
+```html
 <ol> 
    <li> Item 1 </li>
    <li> Item 2 </li>
@@ -125,7 +125,7 @@ Seletor de cor <input type="color" />
 
 ### Lista não ordenada
 
-```
+```html
 <ul> 
    <li> Item 1 </li>
    <li> Item 2 </li>
@@ -151,7 +151,7 @@ Seletor de cor <input type="color" />
 ## Links
 
 - Link abrindo n mesma janela:
-```
+```html
 <a href="https://github.com/anapppp"> Github da Ana  </a>
 ```
 
@@ -159,7 +159,7 @@ Seletor de cor <input type="color" />
 
 - Link abrindo em uma nova aba:
 
-```
+```html
 <a href="https://github.com/anapppp" target="_blank"> Github da Ana</a>
 ```
 
@@ -167,7 +167,7 @@ Seletor de cor <input type="color" />
 
 - Link com balãozinho (*tooltip*):
 
-```
+```html
 <a href="https://github.com/anapppp" title="esse é o bão!"> Github da Ana</a>
 ```
 

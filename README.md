@@ -1,4 +1,4 @@
-# Notas sobre HTML 
+# Notas sobre HTML e CSS
 
 ![V8MX](https://github.com/anapppp/notas-sobre-HTML/assets/70073296/112e1ccc-d092-4916-9eb6-fca378dd67f9)
 
