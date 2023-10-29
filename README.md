@@ -19,4 +19,4 @@ Essas são as minhas anotações sobre o uso de HTML baseado no material diponib
 - [Introdução ao CSS](./04-introducao-CSS.md)
 - [Seletores CSS](./05-seletores.md)
 - [Combinadores CSS](./06-combinadores.md)
-- [Propriedades de dimensionamento e espaçamento](./07-propriedades-de-dimensionamento-e-espacamento)
+- [Propriedades de dimensionamento e espaçamento](./07-propriedades-de-dimensionamento-e-espacamento.md)
