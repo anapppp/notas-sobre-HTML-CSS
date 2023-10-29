@@ -1,4 +1,33 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(239, 255, 248);
+}
+
+
 h1 {
     background: rgba(49, 160, 127, 0.692);
     color: rgb(19, 78, 156);
+}
+
+p {
+    background: rgba(2, 0, 22, 0.692);
+    color: rgb(188, 212, 243);
+}
+
+#seletor-id {
+    color: rgba(2, 0, 22, 0.692);
+    background: rgb(188, 212, 243);
+}
+
+.seletor-class {
+    color: rgb(167, 135, 204);
+    background-color: black;
+}
+
+.seletor-uppercase {
+    text-transform: uppercase;
+}
+
+li {
+    background-color: rgb(142, 209, 209);
 }

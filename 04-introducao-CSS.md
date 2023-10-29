@@ -1,6 +1,6 @@
 ## Introducao ao CSS
 
-> CSS = Cascading Style Sheets (Folha de Estilo em Cascata)
+CSS significa Cascading Style Sheets, ou Folha de Estilo em Cascata.
 
 > CSS é uma <b>linguagem de estilos</b>
 >> <b> Não é </b> uma linguagem de programação, nem  linguagem de marcação

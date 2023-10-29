@@ -11,15 +11,43 @@
             background: black;
             color: rgb(164, 77, 190);
         }
+
+        /* Este é o seletor de atributo */
+        [type="text"] {
+            border: 5px solid #12659c;
+            padding: 8px;
+        }
     </style>
 </head>
 
 <body>
     <h1> Estilo definido por CSS externo </h1>
-    <h2> Estilo definido por CSS interno </h2>
-    <h2> Estilo CSS definido numa tag style </h2>
+    <h2> Estilo definido por CSS interno, definido numa tag style </h2>
     <h2 style="background: rgba(221, 252, 110, 0.836); color:rgb(123, 63, 202)">CSS inline tem prioridade sobre outras
         formas de estilo </h2>
+    <p> Parágrafo com estilo definido para todos os parágrafos.</p>
+    <p id="seletor-id"> Parágrafo com estilo definido pelo Seletor de ID. </p>
+
+    <div>
+        <fieldset>
+            <legend> Ítens: </legend>
+            <ul style="background-color: rgb(42, 129, 129);;">
+                <li> Uma linha </li>
+                <li> Outra linha </li>
+                <li class="seletor-class">Uma linha defnida pelo seletor class </li>
+                <li> Outra linha </li>
+                <li class="seletor-class">Outra linha definida pela mesma classe </li>
+                <li> Outra linha </li>
+                <li class="seletor-class seletor-uppercase">Outra linha definida pela mesma classe, com mais uma classe
+                    sobreposta
+                </li>
+            </ul>
+        </fieldset>
+    </div>
+
+    <label for="username">Exemplo de seletor de atributo:</label>
+    <input type="text" id="username" name="username">
+
 </body>
 
 </html>
