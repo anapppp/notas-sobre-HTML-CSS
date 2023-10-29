@@ -28,6 +28,12 @@ p {
     text-transform: uppercase;
 }
 
-li {
-    background-color: rgb(142, 209, 209);
+li,
+ul,
+fieldset {
+    background-color: rgb(137, 215, 221);
+}
+
+li li {
+    color: rgb(39, 145, 29)
 }
