@@ -13,6 +13,11 @@
 </html>
 ```
 
+## Normalize
+
+Padroniza tudo, independentemente do navegador
+> [Normalize CSS](https://cdnjs.com/libraries/normalize)
+
 ## Tags
 
 Algumas tags precisam ser abertas e fechadas, como é o caso de `<i>texto</i>`. Mas outras, por si só, já é um campo, como `<input>`.
